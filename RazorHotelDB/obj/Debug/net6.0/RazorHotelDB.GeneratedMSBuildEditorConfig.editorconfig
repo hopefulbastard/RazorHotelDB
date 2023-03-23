@@ -1,0 +1,76 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = RazorHotelDB
+build_property.RootNamespace = RazorHotelDB
+build_property.ProjectDir = C:\Users\milos\Documents\SWC 2023\Projects\RazorHotelDB\RazorHotelDB\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\milos\Documents\SWC 2023\Projects\RazorHotelDB\RazorHotelDB
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/milos/Documents/SWC 2023/Projects/RazorHotelDB/RazorHotelDB/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/milos/Documents/SWC 2023/Projects/RazorHotelDB/RazorHotelDB/Pages/Hotels/CreateHotel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG90ZWxzXENyZWF0ZUhvdGVsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/milos/Documents/SWC 2023/Projects/RazorHotelDB/RazorHotelDB/Pages/Hotels/DeleteHotel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG90ZWxzXERlbGV0ZUhvdGVsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/milos/Documents/SWC 2023/Projects/RazorHotelDB/RazorHotelDB/Pages/Hotels/GetAllHotels.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG90ZWxzXEdldEFsbEhvdGVscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/milos/Documents/SWC 2023/Projects/RazorHotelDB/RazorHotelDB/Pages/Hotels/UpdateHotel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG90ZWxzXFVwZGF0ZUhvdGVsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/milos/Documents/SWC 2023/Projects/RazorHotelDB/RazorHotelDB/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/milos/Documents/SWC 2023/Projects/RazorHotelDB/RazorHotelDB/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/milos/Documents/SWC 2023/Projects/RazorHotelDB/RazorHotelDB/Pages/Rooms/CreateRoom.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUm9vbXNcQ3JlYXRlUm9vbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/milos/Documents/SWC 2023/Projects/RazorHotelDB/RazorHotelDB/Pages/Rooms/DeleteRoom.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUm9vbXNcRGVsZXRlUm9vbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/milos/Documents/SWC 2023/Projects/RazorHotelDB/RazorHotelDB/Pages/Rooms/GetAllRooms.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUm9vbXNcR2V0QWxsUm9vbXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/milos/Documents/SWC 2023/Projects/RazorHotelDB/RazorHotelDB/Pages/Rooms/UpdateRoom.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUm9vbXNcVXBkYXRlUm9vbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/milos/Documents/SWC 2023/Projects/RazorHotelDB/RazorHotelDB/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/milos/Documents/SWC 2023/Projects/RazorHotelDB/RazorHotelDB/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/milos/Documents/SWC 2023/Projects/RazorHotelDB/RazorHotelDB/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/milos/Documents/SWC 2023/Projects/RazorHotelDB/RazorHotelDB/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-g0auo24ayn

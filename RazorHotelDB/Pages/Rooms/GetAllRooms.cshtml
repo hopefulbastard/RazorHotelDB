@@ -1,0 +1,78 @@
+﻿@page
+@model RazorHotelDB.Pages.Rooms.GetAllRoomsModel
+@{
+    ViewData["Title"] = "Værelser";
+}
+
+<h1>Alle værelser</h1>
+
+@*Linker til CreateRoom siden*@
+<a asp-page="CreateRoom">Tilføj nyt værelse</a>
+
+@*Filtrerer værelser efter hvilket hotel er valgt*@
+<form method="get">
+    @*Onchange gør, at det ikke er nødvendigt med en submit knap. I stedet bliver den submitted hver gang den valgte værdi ændrer sig.*@
+    <select asp-for="FilterCriteria" onchange="this.form.submit()">
+        @*Ingen værdi i value gør værdien til 0. I GetAllRoomsModel kalder vi GetAllRooms hvis værdien = 0, så her får vi alle værelser.*@
+        <option value="">Filtrer værelser efter hotel:</option>
+        @*Laver dropdown muligheder for hvert hotel fra listen i GetAllRoomsModel, med deres hotelnr som værdi og deres navn som mulighed. *@
+        @foreach(var item in Model.Hotels)
+        {
+            <option value="@item.HotelNr">@item.Navn</option>
+        }
+    </select>
+</form>
+
+@*Alle værelser vises i en tabel.*@
+<table class="table">
+    @*Overskrifter for alle værelserne, med links blanke.*@
+    <thead>
+        <tr>
+            <th>
+                Room no
+            </th>
+            <th>
+                Hotel no
+            </th>
+            <th>
+                Type
+            </th>
+            <th>
+                Price
+            </th>
+            <th></th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @*Tjekker at der er værelser på hotellet før at der laves en oversigt over værelserne*@
+        @if (Model.Rooms.Count() != 0)
+        {
+            @*Samme som i dropdown menuen, tager alle værelserne fra listen lavet i GetAllRoomsModel og viser dem i tabellen.*@
+            @foreach (var item in Model.Rooms)
+            {
+                <tr>
+                    <td>
+                        @item.RoomNr
+                    </td>
+                    <td>
+                        @item.HotelNr
+                    </td>
+                    <td>
+                        @item.Types
+                    </td>
+                    <td>
+                        @item.Pris
+                    </td>
+                    @*Links til update og delete, som tager hotelnr og roomnr fra det specifikke værelse, som overføres til den næste side, da de skal bruges i UpdateRoom og DeleteRoom metoderne.*@
+                    <td>
+                        <a asp-page="UpdateRoom" asp-route-hotelnr="@item.HotelNr" asp-route-roomnr="@item.RoomNr">Update</a>
+                    </td>
+                    <td>
+                        <a asp-page="DeleteRoom" asp-route-hotelnr="@item.HotelNr" asp-route-roomnr="@item.RoomNr">Delete</a>
+                    </td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>

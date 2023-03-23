@@ -1,0 +1,51 @@
+﻿@page
+@model RazorHotelDB.Pages.Rooms.CreateRoomModel
+@{
+    ViewData["Title"] = "Create room";
+}
+
+<h1>Create room</h1>
+
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+
+
+            <div class="form-group">
+                <label asp-for="@Model.Room.RoomNr" class="control-label"></label>
+                <input asp-for="@Model.Room.RoomNr" class="form-control" />
+
+            </div>
+
+            @if(@Model.HotelNr == 0)
+            {
+                <div class="form-group">
+                    <label asp-for="@Model.Room.HotelNr" class="control-label"></label>
+                    <input asp-for="@Model.Room.HotelNr" class="form-control" />
+
+                </div>
+            }
+            else
+            {
+                <div class="form-group">
+                    <label asp-for="@Model.Room.HotelNr" class="control-label"></label>
+                    <input asp-for="@Model.Room.HotelNr" class="form-control" value="@Model.HotelNr" readonly />
+                </div>
+            }
+
+            <div class="form-group">
+                <label asp-for="@Model.Room.Types" class="control-label"></label>
+                <select asp-for="@Model.TheRoomType" asp-items="Html.GetEnumSelectList<Models.RoomType>()"></select>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="@Model.Room.Pris" class="control-label"></label>
+                <input asp-for="@Model.Room.Pris" class="form-control" />
+
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
